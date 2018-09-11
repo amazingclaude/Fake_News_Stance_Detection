@@ -24,7 +24,7 @@ The following libraries were used in the code implementation. The compatibility 
 ## Installation
 Download GoogleNews-vectors-negative300.bin.gz , Google’s pretrained word2vec model in to folder google_news. No other separate installation is required.
 Then unzip the _Dataset.rar_ from file _Dataset_ to the src file (_Fake_News_Stance_Detection_). 
-##Reproducing the result for FNC-1 evaluation
+## Reproducing the result for FNC-1 evaluation
 Execute __pred.py__ file in _load_ mode. This entails the following actions:
 1.	The testing dataset will be loaded class FNCData in __util.py__.
 2.	Function restore_model in __pred.py__ will be intrigued which loads pre-trained models from checkpoints which are stored in file model.
