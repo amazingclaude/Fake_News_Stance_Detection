@@ -1,0 +1,57 @@
+#==================================
+#Mutual information keywords list
+#==================================
+
+#===MI based on stance class keywords============
+#Trained from the FNC-1 official competition training dataset
+        
+        #disagree
+        'mite',
+        'crawl',
+        'scientist',
+        'thomas',
+        'foley',
+        #discuss
+        'militant',
+        'group',
+        'government',
+        'islamic',
+        'syria',
+
+        #unrelated
+        'apple',
+        'freelance',
+        'group',
+        'terrorist',
+        'chibok',
+        #agree
+        'apple',
+        'jong',
+        'brown',
+        'reportedly',
+        'audio',      
+
+#===MI based on customised class keywords=========
+#Trained from the FNC-1 official competition training dataset
+        #reportedly
+        'according',
+        'said',
+        'would',
+        'reported',
+        #claim
+        'false',
+        'would',
+        'claimed',
+        'fact',
+
+        #hoax
+        'culkin',
+        'macaulay',
+        'dead',
+        'internet',
+        #fake
+        'story',
+        'facebook',
+        'website',
+        'site',
+

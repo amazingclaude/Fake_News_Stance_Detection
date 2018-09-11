@@ -1,0 +1,60 @@
+#==================================
+#Manually selected keywords list
+#==================================
+
+#====keywords for title============
+        #refuting words
+        'fake',
+        'fraud',
+        'hoax','hoaxer',
+        'false',
+        'deny', 'denies',
+        'despite',
+        'nope',
+        'doubt', 
+        'bogus',
+        'debunk',
+        'pranks',
+        'retract',  
+        'lie',
+        
+        'not',
+        'no',
+        'didn',
+        #discussion words
+        'reportedly','report',
+        'likely',
+        'probably',
+        'according',
+        'might',
+        
+        'said',
+        #key word 
+        'update'
+        #question mark
+        '?',
+        
+#=====Keywords for body==================
+        #refuting words
+        'fake',
+        'fraud',
+        'hoax','hoaxer',
+        'false',
+        'deny', 'denies',
+        'despite',
+        'nope',
+        'doubt', 
+        'bogus',
+        'debunk',
+        'pranks',
+        'retract',
+        'lie',
+        
+        #discussion words
+        'reportedly','report',
+        'likely',
+        'probably',
+        'according',
+        'might',
+        #key word 
+        'update'

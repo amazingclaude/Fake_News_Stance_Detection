@@ -1,0 +1,30 @@
+#==================================
+#Mutual information keywords list
+#==================================
+
+#===MI based on customised class keywords============
+#Trained from the FNC-1 official competition training and testing dataset
+        
+       #reportedly
+        'according',
+        'said',
+        'reported',
+        'told',
+
+        #claim
+        'claimed',
+        'said',
+        'would',
+        'false',
+
+        #hoax     
+        'culkin',
+        'macaulay',
+        'internet',
+        'story',
+
+        #fake
+        'facebook',
+        'site',
+        'real',
+        'website',
