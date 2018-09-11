@@ -1,3 +1,11 @@
+# Introduction of Fake News Challenge
+Fake news has been a topic covered significantly by media ever since the 2016 United States presidential election. In an in-depth paper, Facebook defines fake news as articles that purport to be factual, but contain intentional mis-statements of fact with the intention to arouse passions, attract viewership, or deceive [1]. New Media Companies like Facebook and Twitter enable news stories and rumours to be propagated fast globally without proper verification procedures. It is important that strategies for identifying fake news and mitigating its spread could be developed. 
+The Fake News Challenge  (FNC-1) was organized under this background which aims to explore how Artificial Intelligence technologies, partially deep learning and natural language processing, might be leveraged to combat the fake news problem. In 2017, the competition phase one launched which focuses on the task of Stance Detection.
+ 
+
+Stance Detection can be regarded as the automating process of looking at what other news organizations are saying about a given claim, which is an important component for fake news detection. This process involves estimating the relative perspective (or stance) of two pieces of text relative to a topic, claim or issue.
+# Objective of this Project
+The Objective is to develop an innovative stance detection algorithm by learning from the algorithms of the top three FNC-1 teams. It is expected that the model trained by the new algorithm will outperform the state-of-the-art systems following the competition’s official evaluation metrics. 
 # Configuration
 The following libraries were used in the code implementation. The compatibility was not tested on other TensorFlow versions. 
 *	Python 3.6.4
