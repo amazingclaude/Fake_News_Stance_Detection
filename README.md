@@ -23,8 +23,9 @@ The following libraries were used in the code implementation. The compatibility 
 # Instruction for running the code
 ## Installation
 Download GoogleNews-vectors-negative300.bin.gz , Google’s pretrained word2vec model in to folder google_news. No other separate installation is required.
-Reproducing the result for FNC-1 evaluation
-Execute __pred.py__ file in load mode. This entails the following actions:
+Then unzip the _Dataset.rar_ from file _Dataset_ to the src file (_Fake_News_Stance_Detection_). 
+##Reproducing the result for FNC-1 evaluation
+Execute __pred.py__ file in _load_ mode. This entails the following actions:
 1.	The testing dataset will be loaded class FNCData in __util.py__.
 2.	Function restore_model in __pred.py__ will be intrigued which loads pre-trained models from checkpoints which are stored in file model.
 3.	The models are used to generate predictions separately, then ensembled for a final prediction.
@@ -34,4 +35,4 @@ Execute __pred.py__ file in load mode. This entails the following actions:
 * To generate keywords with customised class based mutual information algorithm, open __mutual_information.py__ and specify the training documents and customised topic words in method mutual_information. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
 * To generate keywords with PMI algorithm, open __pmi.py__ and specify the training documents. Then in method PMI specify two lists of words. Each list towards to a semantic orientation. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
 
-After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file refuting.py. Last, specify the model type in pred.py and execute it with mode train. 
+After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file __refuting.py__. Last, specify the model type in __pred.py__ and execute it with mode train. 
