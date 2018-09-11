@@ -216,7 +216,7 @@ if mode == 'load':
         final_pred_index = np.argmax(final_pred,1) 
         save_predictions(base_dir,final_pred_index, file_predictions)
         # =========Calculate score=================================================
-        golden_stance = pd.read_csv(base_dir+"/"+"test_stances_unlabeled.csv")
+        golden_stance = pd.read_csv(base_dir+"/"+"test_stances_labeled.csv")
         prediction_stance=pd.read_csv(base_dir+"/"+"predictions_test.csv")
         competition_grade,agree_recall,disagree_recall,discuss_recall,unrelated_recall,all_recall=report_score(golden_stance['Stance'],prediction_stance['Prediction'])
         
@@ -305,7 +305,7 @@ if mode == 'train':
         # Save predictions
         save_predictions(base_dir,final_pred_index, file_predictions)
         # Calculate score
-        golden_stance = pd.read_csv(base_dir+"/"+"test_stances_unlabeled.csv")
+        golden_stance = pd.read_csv(base_dir+"/"+"test_stances_labeled.csv")
         prediction_stance=pd.read_csv(base_dir+"/"+"predictions_test.csv")
         competition_grade,agree_recall,disagree_recall,discuss_recall,unrelated_recall,all_recall=report_score(golden_stance['Stance'],prediction_stance['Prediction'])
         

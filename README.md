@@ -1,5 +1,5 @@
 # Introduction of Fake News Challenge
- 
+
 Fake news has been a topic covered significantly by media ever since the 2016 United States presidential election. In an in-depth [paper](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf), Facebook defines fake news as articles that purport to be factual, but contain intentional mis-statements of fact with the intention to arouse passions, attract viewership, or deceive. 
 New Media Companies like Facebook and Twitter enable news stories and rumours to be propagated fast globally without proper verification procedures. It is important that strategies for identifying fake news and mitigating its spread could be developed. 
 The Fake News Challenge  ([FNC-1](http://www.fakenewschallenge.org/)) was organized under this background which aims to explore how Artificial Intelligence technologies, partially deep learning and natural language processing, might be leveraged to combat the fake news problem. In 2017, the competition phase one launched which focuses on the task of Stance Detection.
