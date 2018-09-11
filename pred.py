@@ -245,16 +245,18 @@ if mode == 'train':
     # dataset=5: baseline+wmd distance feature
     # dataset=6: baseline+combining feature from 2 to 5
     
-    test_prediction1=model(dataset_number=4) 
-    test_prediction2=model(dataset_number=5)
-    test_prediction3=model(dataset_number=6)
+    test_prediction1=model(dataset_number=1) 
+    test_prediction2=model(dataset_number=2)
+    test_prediction3=model(dataset_number=3)
     
+    #=======Define the weights for different categories if needed======
     weight_pred_1=np.diag(np.ones(4))
     #weight_pred_1[0][0]=2
     weight_pred_2=np.diag(np.ones(4))
     #weight_pred_2[2][2]=2
     weight_pred_3=np.diag(np.ones(4))
     #weight_pred_3[3][3]=2 
+    #===================================================================
     
     #=====ensemble for two========
     #final_pred=np.concatenate((np.matmul(test_prediction1,weight_pred_1),np.matmul(test_prediction2,weight_pred_2)),axis=1)
