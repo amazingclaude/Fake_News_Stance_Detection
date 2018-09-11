@@ -13,14 +13,14 @@ The following libraries were used in the code implementation. The compatibility 
 ## Installation
 Download GoogleNews-vectors-negative300.bin.gz , Google’s pretrained word2vec model in to folder google_news. No other separate installation is required.
 Reproducing the result for FNC-1 evaluation
-Execute pred.py file in load mode. This entails the following actions:
-1.	The testing dataset will be loaded class FNCData in util.py.
-2.	Function restore_model in pred.py will be intrigued which loads pre-trained models from checkpoints which are stored in file model.
+Execute __pred.py__ file in load mode. This entails the following actions:
+1.	The testing dataset will be loaded class FNCData in __util.py__.
+2.	Function restore_model in __pred.py__ will be intrigued which loads pre-trained models from checkpoints which are stored in file model.
 3.	The models are used to generate predictions separately, then ensembled for a final prediction.
 4.	Last. The predictions are saved in prediction_test.csv file and the performance index like accuracy and FNC-1 grade are saved in Performance.csv. 
 ## Retrain the model
-* To generate keywords with stance class based mutual information algorithm, open stance_mi.py and specify the training documents. The training documents should follow the FNC format where one document contains a title/body pair with stance labels and one document contains body ID and body text. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
-* To generate keywords with customised class based mutual information algorithm, open mutual_information.py and specify the training documents and customised topic words in method mutual_information. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
-* To generate keywords with PMI algorithm, open pmi.py and specify the training documents. Then in method PMI specify two lists of words. Each list towards to a semantic orientation. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
-After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file refuting.py. Last, specify the model type in pred.py and execute it with mode train. 
+* To generate keywords with stance class based mutual information algorithm, open __stance_mi.py__ and specify the training documents. The training documents should follow the FNC format where one document contains a title/body pair with stance labels and one document contains body ID and body text. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
+* To generate keywords with customised class based mutual information algorithm, open __mutual_information.py__ and specify the training documents and customised topic words in method mutual_information. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
+* To generate keywords with PMI algorithm, open __pmi.py__ and specify the training documents. Then in method PMI specify two lists of words. Each list towards to a semantic orientation. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
+After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file __refuting.py__. Last, specify the model type in __pred.py__ and execute it with mode train. 
 
