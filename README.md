@@ -1,9 +1,15 @@
 # Introduction of Fake News Challenge
+<<<<<<< HEAD
 Fake news has been a topic covered significantly by media ever since the 2016 United States presidential election. In an in-depth [paper](https://fbnewsroomus.files.wordpress.com/2017/04/facebook-and-information-operations-v1.pdf), Facebook defines fake news as articles that purport to be factual, but contain intentional mis-statements of fact with the intention to arouse passions, attract viewership, or deceive. 
 New Media Companies like Facebook and Twitter enable news stories and rumours to be propagated fast globally without proper verification procedures. It is important that strategies for identifying fake news and mitigating its spread could be developed. 
 The Fake News Challenge  ([FNC-1](http://www.fakenewschallenge.org/)) was organized under this background which aims to explore how Artificial Intelligence technologies, partially deep learning and natural language processing, might be leveraged to combat the fake news problem. In 2017, the competition phase one launched which focuses on the task of Stance Detection.
  
 ![Image of FNC](/image/FNC.png)
+=======
+Fake news has been a topic covered significantly by media ever since the 2016 United States presidential election. In an in-depth paper, Facebook defines fake news as articles that purport to be factual, but contain intentional mis-statements of fact with the intention to arouse passions, attract viewership, or deceive [1]. New Media Companies like Facebook and Twitter enable news stories and rumours to be propagated fast globally without proper verification procedures. It is important that strategies for identifying fake news and mitigating its spread could be developed. 
+The Fake News Challenge  (FNC-1) was organized under this background which aims to explore how Artificial Intelligence technologies, partially deep learning and natural language processing, might be leveraged to combat the fake news problem. In 2017, the competition phase one launched which focuses on the task of Stance Detection.
+ 
+>>>>>>> 7f9557f59288520b876bf78f111e25733ec6fc98
 
 Stance Detection can be regarded as the automating process of looking at what other news organizations are saying about a given claim, which is an important component for fake news detection. This process involves estimating the relative perspective (or stance) of two pieces of text relative to a topic, claim or issue.
 # Objective of this Project
@@ -32,4 +38,9 @@ Execute __pred.py__ file in load mode. This entails the following actions:
 * To generate keywords with stance class based mutual information algorithm, open __stance_mi.py__ and specify the training documents. The training documents should follow the FNC format where one document contains a title/body pair with stance labels and one document contains body ID and body text. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
 * To generate keywords with customised class based mutual information algorithm, open __mutual_information.py__ and specify the training documents and customised topic words in method mutual_information. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
 * To generate keywords with PMI algorithm, open __pmi.py__ and specify the training documents. Then in method PMI specify two lists of words. Each list towards to a semantic orientation. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
+<<<<<<< HEAD
 After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file __refuting.py__. Last, specify the model type in __pred.py__ and execute it with mode train. 
+=======
+After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file __refuting.py__. Last, specify the model type in __pred.py__ and execute it with mode train. 
+
+>>>>>>> 7f9557f59288520b876bf78f111e25733ec6fc98
