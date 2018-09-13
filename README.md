@@ -36,3 +36,5 @@ Execute __pred.py__ file in _load_ mode. This entails the following actions:
 * To generate keywords with PMI algorithm, open __pmi.py__ and specify the training documents. Then in method PMI specify two lists of words. Each list towards to a semantic orientation. Then simply execute the python file, a list of words will be displayed directly on the command window. The number of words displayed can be adjusted at the last line of the coding.
 
 After the keywords are obtained, input them into function mutual_information_title and mutual_information_body in file __refuting.py__. Last, specify the model type in __pred.py__ and execute it with mode train. 
+
+For more details please refer to the project [page](https://www.researchgate.net/publication/327634447_Stance_Detection_in_Fake_News_An_Approach_based_on_Deep_Ensemble_Learning) in research gate 
