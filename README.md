@@ -16,7 +16,7 @@ The following libraries were used in the code implementation. The compatibility 
 *	Scikit -learn 0.18.1
 *	TensorFlow (GPU version) 1.8.0
 *	Pandas 0.20.1
-*	Genism 3.4.0
+*	Gensim 3.4.0
 *	Nltk 3.3.0
 *	Scipy 0.19.0
 *	Pyemd 0.5.1
